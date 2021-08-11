@@ -2,7 +2,7 @@ from borracho import BorrachoTradicional
 from campo import Campo 
 from coordenada import Coordenada 
 
-#from bokeh.plotting import figure, show
+from bokeh.plotting import figure, show
 
 def caminata(campo, borracho, pasos):
     inicio = campo.obtener_coordenada(borracho)
